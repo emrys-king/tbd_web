@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "Curriculum Vitae"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -11,54 +11,25 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+- M.Sc. in Statistics, Imperial College London, 2026
+- B.A. with majors in Mathematics and Spanish, Pomona College, 2025
 
-Work experience
+Research Experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+- Predoctoral Scholar, University of Chicago
+- Master's Thesis in Statistics, Imperial College London
+  - DeepRV with Spectral Mixture Kernels for Geospatial Bayesian Inference
+  - [Explain project here]
+- Undergraduate Thesis in Mathematics, Pomona College
+  - [“Regression to the Mean”: The Confluence of Eugenics and Statistics in the 19th and 20th Centuries](https://scholarship.claremont.edu/pomona_theses/347/)
+  - [Explain project here]
+  - Received distinction, awarded to theses that exhibit "substantial mathematical content, either original research or exposition of an advanced topic; lucid accurate writing; appropriate mathematical and historical context; coherent intellectual organization."
+  - Funded by the Pomona College Humanities Studio Undergraduate Fellowship
+- Undergraduate Senior Paper in Spanish Literature, Pomona College
+  - [Explain project here]
+- Scholar in the Summer Undergraduate Applied Mathematics Institute, Carnegie Mellon University
+  - [Leaky Positive Semidefinite Forcing on Graphs](https://msp.org/involve/2025/18-4/p10.xhtml) ([preprint](https://arxiv.org/abs/2312.10154))
+  - [Explain project here]
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
