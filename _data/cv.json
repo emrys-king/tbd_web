@@ -1,63 +1,53 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
-    "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "name": "Emrys King",
+    "email": "emrys[dot]king25[at]imperial.ac.uk",
+    "website": "egkegk.github.io",
+    "summary": "Predoctoral Scholar in the Data and Democracy Lab at the University of Chicago.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
+      "city": "Chicago",
       "countryCode": "US",
-      "region": ""
+      "region": "Illinois"
     },
     "profiles": [
       {
         "network": "Google Scholar",
         "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+        "url": "https://scholar.google.co.uk/citations?hl=en&user=L9Y0gtoAAAAJ"
       },
       {
         "network": "ORCID",
         "username": "",
-        "url": "https://orcid.org/yourorcidurl"
+        "url": "https://orcid.org/0009-0005-5149-5896"
       },
       {
         "network": "GitHub",
         "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "url": "https://github.com/egkegk"
       }
     ]
   },
   "work": [],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
+      "institution": "Imperial College London",
+      "area": "Master's of Science in Statistics",
       "studyType": "",
       "startDate": "",
-      "endDate": "2018",
+      "endDate": "2026",
       "gpa": null,
-      "courses": []
+      "courses": ["Applied Statistics", "Spatial Statistics", "Time Series Analysis"]
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
+      "institution": "Pomona College",
+      "area": "Bachelor's of Arts with majors in Mathematics and Spanish",
       "studyType": "",
       "startDate": "",
-      "endDate": "2014",
+      "endDate": "2025",
       "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
-      "gpa": null,
-      "courses": []
+      "courses": ["Advanced Linear Algebra", "Statistical Linear Models", "Religious Ethics", "Spanish Transition Almodóvar"]
     }
   ],
   "skills": [],
@@ -66,87 +56,62 @@
   "references": [],
   "publications": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "https://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
+      "name": "Leaky Positive Semidefinite Forcing on Graphs",
+      "publisher": "Involve: A Journal of Mathematics",
+      "releaseDate": "2025-07-30",
+      "website": "https://msp.org/involve/2025/18-4/p10.xhtml",
+      "summary": "The product of my summer research at Carnegie Mellon University."
     },
     {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "https://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
+      "name": ["Regression to the Mean\": The Confluence of Eugenics and Statistics \n in the 19th and 20th Centuries"],
+      "publisher": "Scholarship@Claremont",
+      "releaseDate": "2025-05-05",
+      "website": "https://scholarship.claremont.edu/pomona_theses/347/",
+      "summary": "My undergraduate thesis, which received distinction for its quality of original research and presentation."
     }
   ],
   "presentations": [
     {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
+      "name": "The Historical Confluence of Statistical Linear Modelling and Eugenics",
+      "event": "Pomona College Department of Mathematics and Statistics Senior Seminar",
+      "date": "2025-03-15",
+      "location": "Claremont, CA, USA",
+      "description": "20-minute oral presentation."
+    },
+    {
+      "name": "The Mixing of Eugenics and Statistics in 20th Century English-Language Pedagogy",
+      "event": "Claremont Seminar in the History and Philosophy of Mathematics: The Alchemy of Mixing Mathematics Workshop",
+      "date": "2025-02-15",
+      "location": "Claremont, CA, USA",
+      "description": "20-minute oral presentation."
+    },
+    {
+      "name": "Positive Semidefinite Leaky Zero Forcing: Preliminary Report",
+      "event": "Joint Mathematics Meetings",
+      "date": "2024-01-04",
       "location": "San Francisco, CA, USA",
-      "description": ""
+      "description": "Poster presentation."
     },
     {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
+      "name": "Positive Semidefinite Leaky Forcing – A New Variation of Zero Forcing",
+      "event": "SACNAS National Diversity in STEM Conference, Modern Mathematics Workshop",
+      "date": "2023-10-27",
+      "location": "Portland, OR, USA",
+      "description": "Poster presentation. Awarded for excellence in undergraduate poster. Travel funded by Institute for Mathematical and Statistical Innovation (IMSI)."
     }
   ],
   "teaching": [
     {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
+      "course": "Undergraduate Teaching Assistant",
+      "institution": "Pomona College Department of Mathematics and Statistics",
+      "date": ["2022", "-", "2025"],
+      "description": "Selected as a mentor (equivalent to teaching assistant) and grader for each of Calculus II, Linear Algebra, Combinatorics, Number Theory & Cryptography, Statistical Linear Modelling. Provided weekly study hours as well as ad hoc review sessions prior to exams. Received the Bruce Jay Levy Prize upon graduation for my dedication to fostering collaborative learning in the department, largely through my work as a teaching assistant."
     },
     {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
-      "description": ""
-    }
-  ],
-  "portfolio": [
-    {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
-      "date": "",
-      "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+      "course": "Teaching Assistant",
+      "institution": "1-2-1 Math Program",
+      "date": "2022",
+      "description": "Online program dedicated to easing transition from high school to college, designed for students of all academic backgrounds. A particular emphasis is placed on the study of mathematics as a way to introduce problem-solving, collaboration, and logical argumentation at the undergraduate level. For more details, you can read <a href='https://www.pomona.edu/administration/quantitative-skills-center/math-1-2-1'>here</a>."
     }
   ]
 }
