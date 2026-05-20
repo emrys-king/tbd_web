@@ -52,6 +52,12 @@ $global-font-family         : $garamond;
 $header-font-family         : $garamond;
 $caption-font-family        : $garamond;
 
+.archive__item-title,
+.page__title,
+.page__hero-caption {
+  font-family: $garamond;
+}
+
 /* ==========================================================================
    Breakpoints
    ========================================================================== */
