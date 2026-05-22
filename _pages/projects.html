@@ -1,17 +1,37 @@
 ---
-layout: archive
+layout: single
 title: "Projects"
 permalink: /projects/
 author_profile: true
+classes: wide
 ---
-
-These are some (research) projects I have been working on lately.
-
-
 
 {% include base_path %}
 
+<p> Below is a list of projects I have worked on, mainly academic in nature. Clicking on the title of the project will take you to a page with more information on the nature of the work; links to any results or publications associated with the project, if available, are in the rightmost column. </p>
 
-{% for post in site.projects %}
-  {% include archive-single.html %}
-{% endfor %}
+<table class="project-table">
+  <thead>
+    <tr>
+      <th>Project</th>
+      <th>Year</th>
+      <th>Links</th>
+    </tr>
+  </thead>
+  <tbody>
+  {% assign sorted_projects = site.projects | sort: "year" | reverse %}
+  {% for project in sorted_projects %}
+    <tr>
+      <td><a href="{{ project.url }}">{{ project.title }}</a></td>
+      <td>{{ project.year }}</td>
+      <td>
+        {% if project.paper %}<a href="{{ project.paper }}">{{project.paperdisplay}}</a>{% endif %}
+        {% if project.paper and project.preprint %} | {% endif %}
+        {% if project.preprint %} <a href="{{ project.preprint }}">{{project.preprintdisplay}}</a>{% endif %}
+        {% if project.preprint and project.github %} | {% endif %}
+        {% if project.github %}<a href="{{ project.github }}">GitHub</a>{% endif %}
+      </td>
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
