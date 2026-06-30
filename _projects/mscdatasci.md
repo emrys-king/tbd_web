@@ -1,6 +1,6 @@
 ---
 layout: project
-title: 'MSc Statistics Data Science Challenge'
+title: 'Imperial Data Science Challenge'
 author-profile: true
 collection: projects
 sort_date: 2026.07

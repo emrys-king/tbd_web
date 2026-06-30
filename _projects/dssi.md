@@ -12,7 +12,7 @@ github: "https://github.com/emrys-king/DSSI_Datathon"
 
 [Charlotte Imbert](https://cameraperture.github.io/) and I were delighted to win second place at the inaugural Data Science For Social Impact (DSSI) Hackathon, hosted at Harvey Mudd College in April 2025.
 
-We were given 4 hours to explore the World Bank’s Millennium Development Goals dataset — a rich but messy collection covering 263 countries and regions between 2006 and 2015 — and build a stunning visualization addressing the success of the Millennium Development Goals. Focusing on the 6th goal (combat HIV/AIDS, malaria, and other diseases) and drawing inspiration from a new John Green book, we focused on global incidence of tuberculosis (TB). We chose to present our visualization via an interactive Shiny dashboard to explore how TB death rates correlate with health, education, and economic proxy variables.
+We were given 4 hours to explore the World Bank’s Millennium Development Goals dataset — a rich collection covering 263 countries and regions between 2006 and 2015 — and build a stunning visualization addressing the success of the Millennium Development Goals. Focusing on the 6th goal (combat HIV/AIDS, malaria, and other diseases) and drawing inspiration from a certain book by John Green, we focused on global incidence of tuberculosis (TB). We chose to present our visualization via an interactive Shiny dashboard to explore how TB death rates correlate with health, education, and economic proxy variables.
 
 <object data="{{ site.url }}{{ site.baseurl }}/images/appsc.jpeg" type="application/jpeg" width="500px" height="300px">
     <embed src="{{ site.url }}{{ site.baseurl }}/images/appsc.jpeg">

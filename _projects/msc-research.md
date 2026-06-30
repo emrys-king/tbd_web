@@ -1,6 +1,6 @@
 ---
 layout: project
-title: 'Neural Surrogate Methods for Bayesian Spatial Statistics'
+title: 'Neural Surrogate Methods for Spatial Statistics'
 author-profile: true
 collection: projects
 sort_date: 2026.09
