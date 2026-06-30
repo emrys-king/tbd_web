@@ -3,7 +3,8 @@ layout: project
 title: 'Leaky Positive Semidefinite Zero-Forcing on Graphs'
 author-profile: true
 collection: projects
-year: 2023
+sort_date: 2023.07
+display_date: "2023"
 paper: "https://doi.org/10.2140/involve.2025.18.719"
 paperdisplay: "Paper"
 preprint: "https://doi.org/10.48550/arXiv.2312.10154"

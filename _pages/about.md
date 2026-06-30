@@ -1,5 +1,5 @@
 ---
-title: 'Hello, and welcome.'
+title: 'Hello!'
 permalink: /
 author_profile: true
 redirect_from: 
