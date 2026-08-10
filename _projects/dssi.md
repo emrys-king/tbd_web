@@ -20,8 +20,6 @@ We were given 4 hours to explore the World Bank’s Millennium Development Goals
     </embed>
 </object>
 
-
-
 We found some expected trends, like a correlation between TB incidence and TB mortality. However, TB treatment success rates had almost no correlation with TB mortality. Rather, detection of TB was more influential. Since the disease has variable rates of progression, detection is often the most important step, as it unlocks various kinds of treatment. Early detection is also an indication of well-established, accessible healthcare systems. This observation is corroborated by the negative correlation between TB deaths and the percent of births attended by skilled medical staff.
 
 The final product of is currently hosted on [Charlotte’s website](https://cameraperture.shinyapps.io/dssi_app/).

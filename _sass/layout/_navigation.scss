@@ -226,6 +226,13 @@
     }
 
     #theme-toggle {
+      @include breakpoint($medium) {
+        position: absolute;
+        top: 50%;
+        right: 1em;
+        transform: translateY(-50%);
+      }
+
       a {
         width: 25px;
         display: flex;

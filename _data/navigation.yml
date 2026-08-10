@@ -11,6 +11,12 @@ main:
 
   - title: "Projects"
     url: /projects/
+
+  # - title: "Values"
+  #   url: /values/
+
+  # - title: "Musings"
+  #   url: /musings/
     
   - title: "CV"
     url: /cv/
