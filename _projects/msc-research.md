@@ -5,8 +5,6 @@ author-profile: true
 collection: projects
 sort_date: 2026.09
 display_date: "2026"
-preprint: "https://scholarship.claremont.edu/pomona_theses/347/"
-preprintdisplay: "MSc Thesis"
 github: "https://github.com/emrys-king/mscthesis"
 ---
 
@@ -18,3 +16,5 @@ github: "https://github.com/emrys-king/mscthesis"
 A common problem in Bayesian inference is computational tractability. The computational cost of exact inference tends to limit scalability, which in turn limits the applicability of Bayesian methods to settings where dimensionality rapidly increases scale. For example, Gaussian processes are are a popular framework by which to model time series, spatial statistics, and spatiotemporal models, due to their flexibility, encoding of prior knowledge via the covariance function, and robust treatment of model uncertainty. They are also difficult to scale, since exact inference requires Cholesky decomposition of the $$n\times n$$ covariance matrix, with an associated computational cost $$\mathcal{O}(n^3)$$.
 
 To make such inference frameworks tractable, approximate methods are necessary. One such family of methods is the neural surrogate, in which a neural network is trained to approximate some stage of the inferential workflow. My research focused on the DeepRV neural surrogate (introduced by [Navott et al. 2025](http://arxiv.org/abs/2503.21473)), which is trained to approximate a prior, thus allowing for amortization of neural training across multiple possible inferential problems. I extended the method to account for kernel functions with increasingly high-dimensional hyperparameters, mainly the spectral mixture kernel (see [Wilson & Adams 2013](https://proceedings.mlr.press/v28/wilson13.html) and [Wilson et al. 2014](https://proceedings.neurips.cc/paper_files/paper/2014/hash/f1b9324dd8d5843502953afb5efa289e-Abstract.html)). The spectral mixture kernel is notoriously difficult to sample from precisely due to its high-dimensionality, and DeepRV is the first tool to provide a full sampling workflow that could accommodate such limitations.
+
+In my master's thesis, I experimented with implementing DeepRV on simulated and real-world data with spectral mixture kernels. This work both validated that DeepRV is entirely kernel agnostic, extending from montonic, isotropic, and stationary kernels to kernels displaying periodicity, anisotropy, and nonstationarity. Furthermore, it placed empirical bounds on the efficacy of DeepRV under high-dimensional hyperparameters, demonstrating that the optimal implementation of DeepRV on low-dimensional spaces does not seamlessly extend to the spectral case. Finally, it used the spectral kernel on ground-level ozone data in Southern California, placing the method in a wider scientific context. 

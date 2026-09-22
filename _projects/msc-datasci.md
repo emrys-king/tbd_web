@@ -19,3 +19,8 @@ where $$R_{t,n}$$ is the residual load (in MWh), $$L_{t,n}$$ is the load (in MWh
 Of particular interest to my group were the penetration rates, $$\alpha_{\textrm{wind}}$$ and $$\alpha_{\textrm{solar}}$$. These are not available from the data but rather set manually to reflect the rate of adoption of the energy by the surrounding population. In the dataset as given to us, these were set to the cross-Europe average at the start of data collection, in 2012. We compared these rates with current (2026) adoption rate estimates and projected adoption rates for 2030. 
 
 Our data analysis was mainly exploratory given time constraints. I particularly enjoyed looking at parametric curve-fitting for the distributions of ramp rates, which are simply rate of change between time points of residual load. Finding a proper distribution is key to forecasting stress events on the grid, as stress events will typically only occur with a large positive ramp rate (corresponding to high demand) or large negative ramp rate (high supply). The key insight we found was that as adoption increased, the variance of the parameters from country to country increased as well, indicating that a continental-level forecasting method would be less useful than a more localized model.
+
+<figure>
+  <img src="{{site.url}}/images/imperialds.jpeg" alt="A photo of several Imperial College London MSc students. They are presenting slides for the data science challenge."/>
+  <figcaption>Presenting at the MSc Statistics data science challenge.</figcaption>
+</figure>
